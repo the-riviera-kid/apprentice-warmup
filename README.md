@@ -6,7 +6,7 @@ These are presented - very roughly - in increasing order of difficulty. For each
 
 2. Write a function that takes a string, and returns True if that string is a palindrome.
 
-3. Write a function that takes a string, and returns True if that string is a palindrome, or if it's *nearly* a palindrome. "Nearly a palindrome" is defined as "a palindrome with extra letters as the end."
+3. Write a function that takes a string, and returns True if that string is a palindrome, or if it's *nearly* a palindrome. "Nearly a palindrome" is defined as "a palindrome with extra letters as the end." Minimum length of the palindrome part is 3 characters.
 ```
 poop -> True
 crap -> False
@@ -17,6 +17,7 @@ tenets -> True (extra letters at the end, so it's nearly a palindrome)
 babble -> True (extra letters at the end, "bab" is a palindrome)
 levelling -> True (extra letters at the end)
 lotto -> False ("otto" is palindromic, but the extra letter is at the *start*, so it doesn't count.)
+aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
 ```
 
 4. Read exercise 5, but don't write the code. Write a suite of tests for it.

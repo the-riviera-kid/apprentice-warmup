@@ -21,7 +21,9 @@ aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
 ```
 
 4. There was a popular thing going around the internet a while ago; how to find out your Star Wars name! For the first part, you take the first three letters of your last name, and the first two letters of your first name. For the second part, you take the first two letters of your mother's maiden name, and the first three letters of the city where you were born.
+
     So, let's say my name is Dan van der Jackson, my mother's maiden name is O'Brien, and I was born in Edinburgh. In that case, my Star Wars name would be Jacda Obedi. Notice that punctuation is ignored, it's capitalized correctly, etc.
+
     Write a function to generate Star Wars Names. It should take a whole name, a maiden name, and a city name, and it should return a string containing the Star Wars Name. Use this function signature:
     ```python
     def star_wars_name(name, maiden_name, city):

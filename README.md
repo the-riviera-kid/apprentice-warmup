@@ -24,7 +24,7 @@ aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
 
     So, let's say my name is Dan van der Jackson, my mother's maiden name is O'Brien, and I was born in Edinburgh. In that case, my Star Wars name would be Jacda Obedi. Notice that punctuation is ignored, it's capitalized correctly, etc.
 
-    Write a function to generate Star Wars Names. It should take a whole name, a maiden name, and a city name, and it should return a string containing the Star Wars Name. Use this function signature:
+    Write a function to generate Star Wars Names. It should take a whole name, a maiden name, and a city name, and it should return a string containing the Star Wars Name. Call your module `star_wars.py`, and use this function signature:
     ```python
     def star_wars_name(name, maiden_name, city):
         pass # should return string
@@ -32,7 +32,7 @@ aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
 
 4. Read the next exercise, but don't write the code. Write a suite of tests for it.
 
-5. Write a function that takes as input a dictionary, and a target string. The input dictionary may be nested (i.e. contain other dictionaries). Return True if *any* dictionary in the tree contains a key matching the target string. The function signature should be:
+5. Write a function that takes as input a dictionary, and a target string. The input dictionary may be nested (i.e. contain other dictionaries). Return True if *any* dictionary in the tree contains a key matching the target string. Call your module `dictionary_search.py`, and the function signature should be:
     ```python
     def find_key(source_dictionary, target_string):
        pass # should return boolean

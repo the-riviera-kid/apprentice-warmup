@@ -29,6 +29,7 @@ aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
     def star_wars_name(name, maiden_name, city):
         pass # should return string
     ```
+    Your code should not throw exceptions. In error conditions, (e.g. a maiden_name is not provided, the last name is 'Wu', etc) the function should use the largest portion of the name it can (so, empty string for no maiden name, and just the first two letters of 'Wu'.)
 
 4. Read the next exercise, but don't write the code. Write a suite of tests for it.
 

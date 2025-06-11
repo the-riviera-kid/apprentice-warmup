@@ -61,7 +61,9 @@ aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
 
     Be as creative as you like! Don't use any external libraries or APIs.
 
-8. Write a Base64 encode/decode program. Don't use any external libraries or APIs. You probably want to start by reading the wikipedia page on the topic: https://en.wikipedia.org/wiki/Base64
+8. Write a Base64 encode/decode program. Don't use any external libraries or APIs. Also, don't use the Python `base64` module; you already know how to import and call functions, that's not what you should practice here. :)
+
+   You probably want to start by reading the wikipedia page on the topic: https://en.wikipedia.org/wiki/Base64
 
    Your program should be interoperable with the `base64` command line tool; your tool should decode anything it encodes, and vice versa.
 

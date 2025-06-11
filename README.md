@@ -59,11 +59,12 @@ aardvark -> False (i suppose "aa" is a palindrome, but it's too short to count.)
     *   *      * *   ***  *   * *** 
     ```
 
-    Be as creative as you like!
+    Be as creative as you like! Don't use any external libraries or APIs.
 
-8. Write a Base64 encode/decode program
+8. Write a Base64 encode/decode program. Don't use any external libraries or APIs. You probably want to start by reading the wikipedia page on the topic: https://en.wikipedia.org/wiki/Base64
+
+   Your program should be interoperable with the `base64` command line tool; your tool should decode anything it encodes, and vice versa.
 
 9. Write a Connect 4 game!
-
 
 

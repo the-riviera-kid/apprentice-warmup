@@ -118,6 +118,31 @@ These are presented in no particular order of difficulty, but I've made a rough 
 
    This repository contains a sample PGM, generated with a pyramid of size 7.
 
+8. *MEDIUM* Add an additional argument to the pyramids program, `--scale n`. Your pyramid images will have been quite small, and require you to zoom in. The new `--scale n` argument allows you to specify a scaling factor; a number by which to multiply every pixel, making a "zoomed in" effect. This should affect both the terminal view, and the generated PGM file.
+   ```
+   python pyramids.py --to-pgm my_file.pgm --scale 2 3
+   111111
+   111111
+   112211
+   112211
+   111111
+   111111
+   ```
+
+8. *HARD* Mathematical snowflakes! When I was about ten years old, we had a substitute teacher, and I think she wanted to keep us busy - as well as teach us how to follow instructions. She gave us this game called Mathematical Snowflakes. You get some graph paper, and some colored pens. You color in one square in the middle of the paper. Then, in a different color, you color in every square that touches an existing square on only one side. Then, in a different color, you color in every square that touches an existing square on only one side. Then, and you'll never believe this, but in a different color, you color in every square that touches an existing square on only one side. You keep going until you're bored, or the teacher is bored.
+
+   If you do this, you end up with some very pretty patterns. Because I'm a nerd, I did this for _hours_ as a boy. I found out later that technically, this is a class of celluar automata called the Packard Snowflake. If you look in the `packard_snowflakes` directory of this repository, you'll find photographs of the first eight steps of the snowflake, and yes I did color them in by hand.
+
+   Your exercise is to write a program to print out a mathematical snowflake. Take a number on the command line which is the number of generations to run, and then output it to the terminal. Hint; you can use the `█` character to represent a colored-in square.
+
+   Is that too easy? Bonus points available:
+   * Save the snowflake to a PGM file, as above.
+   * Use the Blessed library to print the snowflakes out in different colors.
+   * Use Blessed, and animate the printing of the snowflake; print out the first generation, wait a second, print the next generation, wait, print the next...
+   * Save the snowflake as a PPM file; i.e. the color version of PGM https://en.wikipedia.org/wiki/Netpbm
+   * Look up 'cellular automata'. Do you see any famous examples you recognize? Do you see similarities between that and the snowflakes? Could you generalize your program to produce both?
+
+
 8. *HARD* Write a Connect 4 game!
 
 8. *FUCK ME DEAD* Write a Base64 encode/decode program. Don't use any external libraries or APIs. Also, don't use the Python `base64` module; you already know how to import and call functions, that's not what you should practice here. :)

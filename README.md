@@ -142,6 +142,7 @@ These are presented in no particular order of difficulty, but I've made a rough 
    * Save the snowflake as a PPM file; i.e. the color version of PGM https://en.wikipedia.org/wiki/Netpbm
    * Look up 'cellular automata'. Do you see any famous examples you recognize? Do you see similarities between that and the snowflakes? Could you generalize your program to produce both?
 
+8. *MEDIUM* In the `football_scores` module in this repository, you'll find a `get_league_table` function. Unit test it thoroughly. If there are bugs, fix them. Once it's correct, refactor it to make it clearer.
 
 8. *HARD* Write a Connect 4 game!
 

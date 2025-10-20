@@ -144,6 +144,9 @@ These are presented in no particular order of difficulty, but I've made a rough 
 
 8. *MEDIUM* In the `football_scores` module in this repository, you'll find a `get_league_table` function. Unit test it thoroughly. If there are bugs, fix them. Once it's correct, refactor it to make it clearer.
 
+8. *MEDIUM* In the `tennis` module in this repository, you'll find a `TennisGame` class. Unit test it thoroughly. If there are bugs, fix them. Once it's correct, refactor it to make it clearer.
+
+
 8. *HARD* Write a Connect 4 game!
 
 8. *FUCK ME DEAD* Write a Base64 encode/decode program. Don't use any external libraries or APIs. Also, don't use the Python `base64` module; you already know how to import and call functions, that's not what you should practice here. :)
